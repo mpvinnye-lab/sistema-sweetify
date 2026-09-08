@@ -1,13 +1,15 @@
-# Doce Caixa PWA — v6
+# Doce Caixa PWA — v7
 
-Versão corrigida do app Sweetify.
+Versão revisada do sistema Sweetify.
 
-## Correção principal
-- O botão da aba **Caixa** agora registra diretamente um **Uso do Caixa Sweetify**.
-- Todo uso direto ou pagamento de dívida reduz imediatamente o saldo da porcentagem da Sweetify.
-- O app mostra a prévia **Antes → Depois** antes de salvar.
-- Compras/despesas que entram **antes da divisão** continuam separadas para evitar dupla contagem.
-- Compatível com os dados salvos das versões anteriores.
+## Lógica financeira da v7
+- O **custo unitário** continua existindo para analisar margem e rentabilidade de produtos e feiras.
+- O custo unitário **não é descontado novamente** na divisão dos sócios.
+- O valor real usado para a divisão é: **vendas registradas − compras para produção − despesas reais − despesas específicas das feiras**.
+- Esse saldo real acumulado é dividido nas porcentagens configuradas (35% / 15% / 50% por padrão).
+- O **Caixa Sweetify** é somente a parte da empresa, menos usos diretos e pagamentos de dívida.
+- O app bloqueia retiradas, pagamentos de dívida e usos do Caixa Sweetify acima do disponível.
+- Compras de estoque de um mês continuam sendo recuperadas pelas vendas futuras antes de criar novo dinheiro para divisão.
 
-## Publicação
-Substitua no GitHub os arquivos `index.html`, `sw.js`, `manifest.webmanifest` e a pasta `icons`. O cache foi atualizado para `doce-caixa-v6`.
+## Compatibilidade
+Backups das versões anteriores são normalizados para a v7; as compras já registradas passam a entrar na nova lógica de saldo real.
