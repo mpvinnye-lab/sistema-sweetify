@@ -1,12 +1,13 @@
-# Doce Caixa PWA — v5
+# Doce Caixa PWA — v6
 
-Versão com Caixa Sweetify separado por porcentagem do lucro.
+Versão corrigida do app Sweetify.
 
-- O lucro é calculado por vendas - custo vendido - despesas operacionais.
-- A divisão do lucro usa os percentuais configurados (padrão 35% / 15% / 50%).
-- O Caixa Sweetify acumula somente a porcentagem da empresa e diminui com pagamentos de dívida ou usos da própria loja.
-- Retiradas dos sócios reduzem somente o disponível daquele sócio.
-- Compras para produção não reduzem o lucro duas vezes: o custo entra pelo custo unitário dos produtos vendidos.
-- Salvamento automático local + IndexedDB + backup.
+## Correção principal
+- O botão da aba **Caixa** agora registra diretamente um **Uso do Caixa Sweetify**.
+- Todo uso direto ou pagamento de dívida reduz imediatamente o saldo da porcentagem da Sweetify.
+- O app mostra a prévia **Antes → Depois** antes de salvar.
+- Compras/despesas que entram **antes da divisão** continuam separadas para evitar dupla contagem.
+- Compatível com os dados salvos das versões anteriores.
 
-Ao atualizar no GitHub Pages, substitua `index.html`, `sw.js`, `manifest.webmanifest` e mantenha a pasta `icons`.
+## Publicação
+Substitua no GitHub os arquivos `index.html`, `sw.js`, `manifest.webmanifest` e a pasta `icons`. O cache foi atualizado para `doce-caixa-v6`.
