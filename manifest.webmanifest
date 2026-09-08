@@ -1,7 +1,7 @@
 {
   "name": "Doce Caixa — Gestão da Confeitaria",
   "short_name": "Doce Caixa",
-  "description": "Controle de feiras, produtos, despesas, dívidas e divisão do lucro.",
+  "description": "Controle de feiras, compras, despesas, dívidas e divisão do dinheiro real disponível.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
