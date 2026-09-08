@@ -1,31 +1,17 @@
 {
-  "name": "Doce Caixa — Gestão da Confeitaria",
-  "short_name": "Doce Caixa",
-  "description": "Controle de feiras, compras, despesas, dívidas e divisão do dinheiro real disponível.",
+  "name": "Sweetify Caixa",
+  "short_name": "Sweetify Caixa",
+  "description": "Gestão financeira exclusiva da confeitaria Sweetify: feiras, iFood, encomendas, entradas, saídas, dívidas e divisão.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fff8f3",
-  "theme_color": "#a74b5b",
+  "background_color": "#fff3fb",
+  "theme_color": "#f03386",
   "orientation": "portrait-primary",
   "lang": "pt-BR",
-  "categories": [
-    "business",
-    "finance",
-    "productivity"
-  ],
+  "categories": ["business", "finance", "productivity"],
   "icons": [
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ]
 }
