@@ -1,15 +1,15 @@
-# Doce Caixa PWA — v7
+# Sweetify Caixa — v8
 
-Versão revisada do sistema Sweetify.
+Aplicativo financeiro exclusivo da confeitaria Sweetify.
 
-## Lógica financeira da v7
-- O **custo unitário** continua existindo para analisar margem e rentabilidade de produtos e feiras.
-- O custo unitário **não é descontado novamente** na divisão dos sócios.
-- O valor real usado para a divisão é: **vendas registradas − compras para produção − despesas reais − despesas específicas das feiras**.
-- Esse saldo real acumulado é dividido nas porcentagens configuradas (35% / 15% / 50% por padrão).
-- O **Caixa Sweetify** é somente a parte da empresa, menos usos diretos e pagamentos de dívida.
-- O app bloqueia retiradas, pagamentos de dívida e usos do Caixa Sweetify acima do disponível.
-- Compras de estoque de um mês continuam sendo recuperadas pelas vendas futuras antes de criar novo dinheiro para divisão.
-
-## Compatibilidade
-Backups das versões anteriores são normalizados para a v7; as compras já registradas passam a entrar na nova lógica de saldo real.
+## Novidades da v8
+- Nome e identidade visual alterados para **Sweetify Caixa**.
+- Nova paleta rosa/chocolate baseada na identidade enviada.
+- Novo ícone do aplicativo com a arte oficial enviada.
+- Nova aba **Entradas**.
+- **Adicionar fundos** por Feira, iFood, Encomenda individual, Encomenda grande/evento e Outra entrada.
+- iFood registra o **líquido recebido** (bruto menos taxa informada), sem descontar a taxa duas vezes.
+- Encomendas contam somente o **valor realmente recebido**; sinal e restante podem ser registrados em momentos diferentes.
+- Divisão continua baseada em **entradas reais − compras reais − despesas reais**.
+- Custos unitários continuam apenas como referência de rentabilidade dos produtos e feiras.
+- Backups antigos continuam compatíveis; a chave de armazenamento foi preservada para não apagar dados já existentes.
